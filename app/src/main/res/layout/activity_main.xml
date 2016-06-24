@@ -11,6 +11,9 @@
     tools:context="kr.hs.emirim.sinyh104.stac.MainActivity"
     android:orientation="horizontal">
 
+
+
+
         <Button
             android:id="@+id/but_garley"
             android:text="갤러리"

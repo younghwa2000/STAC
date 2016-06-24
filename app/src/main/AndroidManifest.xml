@@ -21,7 +21,7 @@
         <activity android:name=".insetting"></activity>
         <activity android:name=".store"></activity>
         <activity android:name=".diary"></activity>
-
+        <activity android:name=".activity"></activity>
 
     </application>
 

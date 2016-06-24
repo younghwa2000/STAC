@@ -16,10 +16,10 @@ public class firstActivity1 extends Activity{
         super.onCreate(saveInstanceState);
         setContentView(R.layout.first1);
 
-        Button btnNewActivity=(Button)findViewById(R.id.characterActivity);
+        Button btnNewActivity=(Button)findViewById(R.id.activity);
         btnNewActivity.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), character_activity.class);
+                Intent intent = new Intent(getApplicationContext(), activity.class);
                 startActivity(intent);
             }
         });
@@ -41,7 +41,7 @@ public class firstActivity1 extends Activity{
         });
 
         Button btnNewActivity3=(Button)findViewById(R.id.inSetting);
-        btnNewActivity2.setOnClickListener(new View.OnClickListener(){
+        btnNewActivity3.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), insetting.class);
                 startActivity(intent);

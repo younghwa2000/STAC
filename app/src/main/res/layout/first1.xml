@@ -5,32 +5,32 @@
     <ImageView
         android:src="@drawable/mainpage"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/activity"
+        android:text="활동"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <Button
-            android:id="@+id/characterActivity"
-            android:text="활동"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <Button
-            android:id="@+id/gotoStore"
-            android:text="상점"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <Button
-            android:id="@+id/diary"
-            android:text="일기"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <Button
-            android:id="@+id/inSetting"
-            android:text="설정"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
-
+    <Button
+        android:id="@+id/gotoStore"
+        android:text="상점"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/diary"
+        android:text="일기"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/inSetting"
+        android:text="설정"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
 
 </LinearLayout>
